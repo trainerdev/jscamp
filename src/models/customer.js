@@ -1,4 +1,4 @@
-import User from "./user";
+import User from "./user.js";
 
 // extends User: id, firstName, lastName, city, age User classındada olduğundan bu komut ile tekrar
 // yazmamıza gerek kalmaz. super() in içine geçerek tek seferde yazdırabiliriz.
