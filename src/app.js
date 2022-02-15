@@ -14,7 +14,7 @@ const euroDun = 11.2; // const ile yapılan tanımlama sabit tanımlamadır değ
 console.log(euroDun);
 
 // array
-// camelCasing 
+// camelCasing
 // PascalCasing
 let konutKredileri = [
   "Konut Kredisi",
@@ -22,10 +22,21 @@ let konutKredileri = [
   "Kamu Konut Kredisi",
 ];
 
-console.log("<ul>")
-for(let i = 0;i<konutKredileri.length;i++){               // for döngüsü, let i = 0 (0 dan başla), i<3 (i 3 den küçükse devam et), i++ her döngüde i yi 1 arttır.
-    console.log("<li>"+konutKredileri[i]+"</li>")
-} 
-console.log("</ul>")
+console.log("<ul>");
+for (let i = 0; i < konutKredileri.length; i++) {
+  // for döngüsü, let i = 0 (0 dan başla), i<3 (i 3 den küçükse devam et), i++ her döngüde i yi 1 arttır.
+  console.log("<li>" + konutKredileri[i] + "</li>");
+}
+console.log("</ul>");
 
-console.log(konutKredileri)
+console.log(konutKredileri);
+
+function deneme(ar) {
+  let control = 0;
+  for (let i = 0; i <= ar.length; i++) {
+    control += i;
+  }
+  console.log(control);
+}
+
+deneme([1, 2, 3]);
