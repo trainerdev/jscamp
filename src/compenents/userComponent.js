@@ -9,7 +9,7 @@ let logger1 = new BaseLogger();
 let userService = new UserService(logger1);
 
 let user1 = new User(1, "Fatih", "Ata", "Ankara");
-let user2 = new User(2, "Mehmet", "Ergenç", "Ankara");
+let user2 = new User(2, "Ziya", "Yalı", "Ankara");
 userService.add(user1);
 userService.add(user2);
 

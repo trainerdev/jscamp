@@ -10,8 +10,8 @@ export const users = [
   },
   {
     id: 2,
-    firstName: "Fatma",
-    lastName: "Ata",
+    firstName: "Ahmet",
+    lastName: "Ulu",
     city: "Ankara",
     age: 50,
     creditCardNumber: "654321",
@@ -19,8 +19,8 @@ export const users = [
   },
   {
     id: 3,
-    firstName: "Mehmet",
-    lastName: "Ergenç",
+    firstName: "Utku",
+    lastName: "Lale",
     city: "Ankara",
     age: 20,
     salary: 6000,
@@ -28,8 +28,8 @@ export const users = [
   },
   {
     id: 4,
-    firstName: "Emine",
-    lastName: "Ata",
+    firstName: "Emre",
+    lastName: "Genç",
     city: "Ankara",
     age: 70,
     salary: 5500,
